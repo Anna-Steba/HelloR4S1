@@ -1,20 +1,42 @@
 greeting = "Hello!"
-print(greeting)
-name_1 = 'Anna Steba'
-print(name_1)
+name= 'Anna Steba'
 gender = 'female'
-print(gender)
-age = "26"
-print(age)
-weight_1 = 64
-print(weight_1)
-height_1= 1.69
-print(height_1)
-bmi = weight_1 / height_1**2
-print(bmi)
+age = "27"
+weight = 64
+height= 1.69
+bmi = weight / height**2
 point = "."
-comma = ","
 
-finaly_text = greeting + " " + 'My name is' +" "+ name_1 + point +" "+ 'I\'am'+ " " + age + " " + 'years old' + point
+finaly_text = greeting + " " + 'My name is' + " " + name + point +" "+ 'I\'am'+ " " + age + " " + 'years old' + point + " " + 'Мой вес' + " " + str(weight) + " " + 'кг' + "," \
+              + " " + 'а рост' + " " + str(height) + " "+ 'м' + point + " " + "Мой индекс массы тела равен" + " " + str (bmi)
 print(finaly_text)
 
+
+
+text_songs = """Baa, baa, black sheep,
+ 
+Have you any wool?
+ 
+Yes sir, yes sir,
+ 
+Three bags full
+ 
+
+One for the master,
+ 
+One for the dame,
+ 
+And one for the little boy
+ 
+Who lives down the lane
+ 
+ 
+Baa, baa, black sheep,
+ 
+Have you any wool?
+ 
+Yes sir, yes sir,
+ 
+Three bags full"""
+
+print(text_songs)
