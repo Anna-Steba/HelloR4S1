@@ -9,34 +9,9 @@ point = "."
 
 finaly_text = greeting + " " + 'My name is' + " " + name + point +" "+ 'I\'am'+ " " + age + " " + 'years old' + point + " " + 'Мой вес' + " " + str(weight) + " " + 'кг' + "," \
               + " " + 'а рост' + " " + str(height) + " "+ 'м' + point + " " + "Мой индекс массы тела равен" + " " + str (bmi)
-print(finaly_text)
 
 
 
-text_songs = """Baa, baa, black sheep,
- 
-Have you any wool?
- 
-Yes sir, yes sir,
- 
-Three bags full
- 
+text_songs_version_2 = "\rBaa, baa, black sheep, \n \rHave you any wool? \n \rYes sir, yes sir, \n \rThree bags full \n \rOne for the master, \n \rOne for the dame, \n \rAnd one for the little boy \n \rWho lives down the lane \n \rBaa, baa, black sheep, \n \rHave you any wool? \n \rYes sir, yes sir, \n \rThree bags full"
 
-One for the master,
- 
-One for the dame,
- 
-And one for the little boy
- 
-Who lives down the lane
- 
- 
-Baa, baa, black sheep,
- 
-Have you any wool?
- 
-Yes sir, yes sir,
- 
-Three bags full"""
-
-print(text_songs)
+print(text_songs_version_2)
