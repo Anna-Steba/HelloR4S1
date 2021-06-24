@@ -12,6 +12,8 @@ finaly_text = greeting + " " + 'My name is' + " " + name + point +" "+ 'I\'am'+ 
 
 
 
-text_songs_version_2 = "\rBaa, baa, black sheep, \n \rHave you any wool? \n \rYes sir, yes sir, \n \rThree bags full \n \rOne for the master, \n \rOne for the dame, \n \rAnd one for the little boy \n \rWho lives down the lane \n \rBaa, baa, black sheep, \n \rHave you any wool? \n \rYes sir, yes sir, \n \rThree bags full"
+text_songs_version_2 = "\r \t\tBaa, baa, black sheep, \n \t\tHave you any wool? \n \t\tYes sir, yes sir, \n \t\tThree bags full \n " \
+                       "\t\tOne for the master, \n \t\tOne for the dame, \n \t\tAnd one for the little boy \n \t\tWho lives down the lane " \
+                       "\n \t\trBaa, baa, black sheep, \n \t\tHave you any wool? \n \t\tYes sir, yes sir, \n \t\tThree bags full"
 
 print(text_songs_version_2)
